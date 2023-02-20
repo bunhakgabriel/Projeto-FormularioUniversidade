@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 100%;
+    height: 99vh;
+}
+
+#plano-de-fundo, #plano-de-fundo img{
+    width: 100%;
+    height: 100%;
+}
+
+/* sres de conteudos */
+
+div#conteudo{
+    width: 80%;
+    height: 80%;
+    border: 1px solid blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section#textos{
+    width: 48%;
+    height: 90%;
+    border: 1px solid red;
+}
+
+section#formulario{
+    width: 48%;
+    height: 90%;
+    border: 1px solid red;
+}
