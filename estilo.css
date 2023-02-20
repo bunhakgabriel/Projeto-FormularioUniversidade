@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -18,7 +22,7 @@
 
 div#conteudo{
     width: 80%;
-    height: 80%;
+    padding: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -26,14 +30,97 @@ div#conteudo{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: white;
 }
 
 section#textos{
     width: 48%;
-    height: 90%;
+}
+
+section#textos h3{
+    font-size: 3em;
+    font-family: 'DM Serif Display', serif;
+    margin: 0px 0px 20px 0px;
+    letter-spacing: 15px;
+}
+
+section#textos h1{    
+    font-size: 2.7em;
+    margin-bottom: 30px;
+}
+
+section#textos p{
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+section#textos input{
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid #151515;
+    font-size: 1em;
+    margin-left: 20px;
+    font-family: 'PT Serif', serif;
+    background-color: rgb(255,255,255, 0.0);
+    color: #151515;
+}
+
+section#textos input:hover{
+    background-color: #151515;
+    color: white;
+    transition: 1.5s;
 }
 
 section#formulario{
-    width: 48%;
-    height: 90%;
+    width: 45%;
+    height: 95%;
+    padding: 40px 10px;
+    background-color: rgba(230,230,230, 0.2);
+}
+
+section#formulario h1{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section#formulario input{
+    display: block;
+    margin: 10px auto;
+    width: 90%;
+    height: 45px;
+    border: 0;
+    padding-left: 15px;
+    font-family: 'PT Serif', serif;
+}
+
+section#formulario button{
+    display: block;
+    margin: 15px auto;
+    width: 90%;
+    height: 45px;
+    background-color: rgb(255,255,255, 0.0);
+    color: #151515;
+    font-family: 'PT Serif', serif;
+    font-size: 1.3em;
+}
+
+section#formulario button:hover{
+    background-color: #151515;
+    color: white;
+    transition: 1.5s;
+}
+
+section#formulario a{
+    text-decoration: none;
+}
+
+section#formulario p{
+    text-align: center;
+}
+
+section#formulario p a{
+    color: white;
+    text-decoration: underline;
 }
