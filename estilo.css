@@ -19,7 +19,6 @@
 div#conteudo{
     width: 80%;
     height: 80%;
-    border: 1px solid blue;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -32,11 +31,9 @@ div#conteudo{
 section#textos{
     width: 48%;
     height: 90%;
-    border: 1px solid red;
 }
 
 section#formulario{
     width: 48%;
     height: 90%;
-    border: 1px solid red;
 }
