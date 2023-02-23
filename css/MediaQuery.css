@@ -1,0 +1,110 @@
+/* Sessão1 MediaQuery */
+
+@media (min-width: 250px) and (max-width: 849px){
+
+    div#container{
+        height: 900px;
+        border: 1px solid red;
+    }
+
+    div#conteudo{
+        display: block;
+        width: 100%;
+        top: 373px;
+    }
+    
+    section#textos{
+        width: 100%;
+        height: 430px;
+        margin: 0px auto 10px auto;
+        max-width: 300px;
+    }
+
+    section#textos h3{
+        font-size: 1.7em;
+        text-align: center;
+        margin-top: 15px;
+        
+    }
+
+    section#textos h1{
+        font-size: 1.5em;
+        text-align: center;
+        
+    }
+
+    section#textos p{
+        font-size: 1em;
+        text-align: center;
+    }
+
+    section#textos a{
+        text-decoration: none;
+    }
+
+    section#textos input, section#formulario input, section#formulario button{
+        width: 80%;
+        height: 35px;
+        margin-top: 5px;
+        display: block;
+        margin: 5px auto;
+    }
+
+    section#formulario{
+        width: 100%;
+        padding: 10px 10px;
+        max-width: 300px;
+        margin: 0px auto 20px auto;
+        background-color: rgba(230,230,230, 0.0);
+    }
+
+    section#formulario h1{
+        font-size: 1.5em;
+        margin-top: 0px;
+    }
+
+    section#formulario p{
+        font-size: 0.8em;
+    }
+
+}
+
+/* Sessão2 MediaQuery */
+
+@media (min-width: 401px) and (max-width: 849px){
+  
+    div#conteudo{
+        top: 400px;
+    }
+    
+    section#textos{
+        max-width: 600px;
+        height: 470px;
+    }
+
+    section#textos h3{
+        font-size: 2.5em;        
+    }
+
+    section#textos h1{
+        font-size: 2em;        
+    }
+
+    section#formulario{
+        max-width: 600px;
+    }
+
+    section#textos input, section#formulario input, section#formulario button{
+        height: 50px;
+        margin: 10px auto;
+    }
+
+    section#formulario h1{
+        font-size: 2em;
+    }
+
+    section#formulario p{
+        font-size: 1.2em;
+    }
+
+}

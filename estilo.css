@@ -31,10 +31,12 @@ div#conteudo{
     justify-content: space-around;
     align-items: center;
     color: white;
+    border: 0px solid red;
 }
 
 section#textos{
     width: 48%;
+    border: 0px solid red;
 }
 
 section#textos h3{
@@ -75,6 +77,7 @@ section#formulario{
     height: 95%;
     padding: 40px 10px;
     background-color: rgba(230,230,230, 0.2);
+    border: 0px solid red;
 }
 
 section#formulario h1{
@@ -122,4 +125,16 @@ section#formulario p{
 section#formulario p a{
     color: white;
     text-decoration: underline;
+}
+
+@media (max-width: 850px){
+
+    #plano-de-fundo img{
+        display: none;
+    }
+
+    body{
+        background-image: url('https://www.casadopapeldeparede.com.br/images/p/idea-of-art/12-02504-80-1.jpg');
+    }
+
 }
